@@ -1,0 +1,317 @@
+body{
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+ul{
+
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+figure{
+	margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-family: 'Fjalla One', sans-serif;
+	font-weight: normal;
+}
+
+h1 strong{
+	color: #026fff;
+}
+
+h2{
+	color: #026fff;
+	text-transform: uppercase;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold; 
+	font-size: 24px;
+	margin-bottom: 40px;
+	margin-top: 20px;
+	
+	}
+
+h1{
+	font-size: 40px;
+	line-height: 1.5;
+	text-transform: initial;
+	letter-spacing: -.2px;
+	margin: 0;
+	padding: 30px;
+}
+
+p{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+img{
+	margin: 0;
+}
+
+
+
+.header{
+	background-color: #1b2127;
+	color: white;
+	margin: 0;
+	padding: 0;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+
+
+
+
+.logo{
+	
+	padding-top: 30px;
+
+
+}
+.menu{
+	height: inherit;
+}
+
+.header ul{
+	display: flex;
+	height: inherit;
+}
+
+.header ul li{
+	height: inherit;
+}
+.header a{
+	text-decoration: none;
+	color: white;
+	padding: 0 10px;
+	height: inherit;
+	display: flex;
+	align-items: center;
+	/*justify-content: space-between;*/
+}
+
+.hero{
+	height: 300px;
+	background-image: url('images/michaelperez.jpg');
+	background-color: #1b2127;
+	color: white;
+	background-size: 450px 400px;
+	background-repeat: no-repeat;
+	background-position-x:right;
+	display: flex;
+	align-items: center;
+
+}
+
+.portfolio{
+	background: fafafa;
+	padding: 20px;
+}
+
+.project{
+	border: solid gray 1px;
+	border-radius: 10px;
+	padding: 20px;
+	/*margin: 20px;
+	padding-left: 10px;*/
+	margin-bottom: 15px;
+	background: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+
+.project-title{
+	font-size: 30px;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.project-course,
+.project-date,
+.project-url{
+	margin:5px 0; 
+}
+
+.project-description{
+	font-size: 20px;
+	
+}
+
+.project-detail{
+	width: 500px;
+
+
+}
+
+.project-imageContainer{
+	width: 500px;
+
+
+}
+
+.project-image{
+	width: 400px;
+	margin-left: 10px;
+	background-color: white;
+	border-radius: 80px;
+}
+
+
+
+.project strong{
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.ability {
+	/*width: 1300px;*/
+	
+	height: 100px;
+	padding: 20px;
+	border: solid gray 1px;
+	border-radius: 10px;
+	margin: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ability-components{
+	margin-bottom: 25px;
+}
+
+.ability-image{
+	/*width: 800px;*/
+
+}
+
+.ability a{
+	border: solid #1bbc9b 2px;
+	background-color: #1bbc9b;
+	color: white;
+	
+	padding: 0.5em 1.5em;
+	border-radius: 40px;
+	font-family: 'Source Sans Pro', sans-serif;
+	/*font-weight: bold;*/
+	/*font-weight:bold;*/
+}
+
+.ability-title{
+	margin: 18px;
+}
+
+.ability-frontend{
+	/*position: relative;
+	left: 500px;*/
+
+}
+
+.ability-css{
+	/*position: relative;
+	left: 840px;
+	bottom: 40px;*/
+}
+
+
+
+.logo{
+	margin: 0;
+}
+
+.contact{
+	background-color: #056fff;
+	color: white;
+	height: 180px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.form-email h3{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.form-email input{
+	border-color: gray;
+	border-style: solid;
+	border-radius: 5px;
+	padding: 10px 20px 10px 25px;
+	background-size: 15px 15px;
+	background-image: url('images/envelope.svg');
+	background-repeat: no-repeat;
+	background-position-y:center;
+	background-position-x: 5px; 
+}
+
+.form-email button{
+	display: block;
+	border-radius: 5px;
+	color: white;
+	background: transparent;
+	padding: 10px 0px;
+	width: 100px;
+	margin-top: 10px;
+	/*margin: 10px auto 0;*/
+}
+
+.social-link{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 0 10px;
+	background-size: 50px 50px;
+}
+
+.social-link.twitter{
+	background-image: url('images/twitter.svg');
+}
+
+.social-link.facebook{
+	background-image: url('images/facebook.svg');
+}
+
+.social-link.instagram{
+	background-image: url('images/instagram.svg');
+}
+
+.social-link.github{
+	background-image: url('images/github.svg');
+}
+
+
+
+.footer{
+	background-color: #1b2127;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer a{
+	color: white;
+}
+
+.footer img{
+	padding:1px;
+}
+
+.footer a,p{
+	padding-top: 20px;
+}
+
+
